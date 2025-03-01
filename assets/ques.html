@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .poppins {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+<body class="poppins min-h-screen mx-auto bg-slate-200">
+    <nav class="bg-white flex justify-between mx-20 px-20 py-5 shadow-md rounded-lg">
+        <div class="flex gap-3 items-center">
+            <img src="logo.png" alt="">
+            <h1 class="text-4xl"><span class="text-gray-500">Dev</span><span class="font-bold">Board</span></h1>
+        </div>
+        <div class="flex gap-11 items-center">
+            <button class="btn btn-primary">Back to desk</button>
+        </div>
+    </nav>
+<!-- faq -->
+ <h1 class="font-bold text-3xl text-center mt-10"> Blogs</h1>
+ 
+<section class="mx-20 mt-10">
+    
+    <!-- q-1 -->
+    <div class="mb-3">
+        <div tabindex="0" class="collapse collapse-close bg-base-100 border-base-300 border">
+            <div class="collapse-title font-bold">Question-1: What are the different ways to select an element in the DOM?</div>
+            
+          </div>
+          <!-- a1 -->
+          <div tabindex="0" class="collapse collapse-close bg-base-100 border-base-300 border mt-1">
+            <div class="collapse-title text-gray-500">There are several ways to select an element. Such as -getElementById,getElementByClass,getElementByTag,querySelector etc.</div>
+           
+          </div>
+       </div>
+        <!-- q-2 -->
+   <div class="mb-3">
+    <div tabindex="0" class="collapse collapse-close bg-base-100 border-base-300 border">
+        <div class="collapse-title font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent?</div>
+        
+      </div>
+      <!-- a2 -->
+      <div tabindex="0" class="collapse collapse-close bg-base-100 border-base-300 border mt-1">
+        <div class="collapse-title text-gray-500">By using 'innerHTML' you can trigger entire html content <br>By using 'innerText' you can trigger a specific text inside an element and set or change it. <br> 'textContent'represents the text content of an element, including child elements without any HTML tags.</div>
+       
+      </div>
+   </div>
+    <!-- q-3 -->
+    <div class="mb-3">
+        <div tabindex="0" class="collapse collapse-close bg-base-100 border-base-300 border">
+            <div class="collapse-title font-bold">Question-3: What is event delegation in the DOM?</div>
+            
+          </div>
+          <!-- a3-->
+          <div tabindex="0" class="collapse collapse-close bg-base-100 border-base-300 border mt-1">
+            <div class="collapse-title text-gray-500">By using it you can add event listener directly to parent element instead of using event listener for multiple times for multiple elements.</div>
+           
+          </div>
+       </div>
+        <!-- q-4 -->
+   <div class="mb-3">
+    <div tabindex="0" class="collapse collapse-close bg-base-100 border-base-300 border">
+        <div class="collapse-title font-bold">Question-4: What is event bubbling in the DOM?</div>
+        
+      </div>
+      <!-- a4 -->
+      <div tabindex="0" class="collapse collapse-close bg-base-100 border-base-300 border mt-1">
+        <div class="collapse-title text-gray-500">Event bubbling is when an event starts from the root and keep traveling through all the child elements and then goes back to the root again.</div>
+       
+      </div>
+   </div>
+    <!-- q5-->
+    <div class="mb-3">
+        <div tabindex="0" class="collapse collapse-close bg-base-100 border-base-300 border">
+            <div class="collapse-title font-bold">Question-5: How do you create, add, and remove elements using JavaScript?</div>
+            
+          </div>
+          <!-- a5 -->
+          <div tabindex="0" class="collapse collapse-close bg-base-100 border-base-300 border mt-1">
+            <div class="collapse-title text-gray-500">Creating an element:  document.createElement('')  <br>
+                Adding an element:  appendChild() <br>
+                removing an element: remove()</div>
+           
+          </div>
+       </div>
+</section>
+</body>
+</html>

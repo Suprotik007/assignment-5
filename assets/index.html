@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Board</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .poppins {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+</head>
+<body class="poppins min-h-screen mx-auto bg-slate-200">
+
+    <!-- Nav -->
+    <nav class="bg-white flex justify-between mx-20 px-20 py-5 shadow-md rounded-lg">
+        <div class="flex gap-3 items-center">
+            <img src="logo.png" alt="">
+            <h1 class="text-4xl"><span class="text-gray-500">Dev</span><span class="font-bold">Board</span></h1>
+        </div>
+        <div class="flex gap-11 items-center">
+            <div class="flex gap-3 items-center">
+                <img src="checkbox.png" alt="">
+                <h2 class="font-semibold text-3xl">23</h2>
+            </div>
+            <img src="theme-btn.png" alt="">
+        </div>
+    </nav>
+
+    
+    <section class="mt-10 mx-20 grid grid-cols-[3fr_1fr] gap-6">
+
+        
+        <div class="flex flex-col gap-6">
+            
+            <!-- HeadSec-->
+            <header class="bg-white rounded-lg p-5 grid grid-cols-3 gap-4">
+                <div class="bg-slate-100 flex items-center gap-4 p-5 rounded-lg shadow-sm">
+                    <img src="checkbox.png" alt="">
+                    <div>
+                        <h3>Task Assigned</h3>
+                        <p class="font-bold text-xl">05</p>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-r from-blue-500 to-sky-300 flex items-center gap-4 p-5 rounded-lg shadow-sm">
+                    <img class="w-20 h-20" src="board.png" alt="">
+                    <p class="text-2xl text-white">Discover Something <br> New Today!</p>
+                </div>
+                <div class="bg-slate-100 flex items-center gap-4 p-5 rounded-lg shadow-sm">
+                    <img src="calender.png" alt="">
+                    <div>
+                        <p>Sat,</p>
+                        <p class="font-bold text-xl">01 Mar 2025</p>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Cards -->
+            <div class="grid grid-cols-3 gap-6">
+                <!-- card-1 -->
+                <div class="card bg-slate-100 shadow-md rounded-lg p-4">
+                    <h2 class="bg-white p-2 w-22 rounded-lg">ShopEase</h2>
+                    <h2 class="text-lg font-semibold mt-2">Fix Mobile Button Issue</h2>
+                    <p class="bg-white p-3 rounded-lg text-gray-500">Debug using Chrome DevTools, check for overlapping elements...</p>
+                    <div class="flex justify-between items-center mt-4">
+                        <p class="text-gray-500 text-sm">Deadline <br><span class="font-semibold">01 Mar 2025</span></p>
+                        <button class="btn btn-primary">Completed</button>
+                    </div>
+                </div>
+<!-- card-2 -->
+                <div class="card bg-slate-100 shadow-md rounded-lg p-4">
+                    <h2 class="bg-white p-2 w-22 rounded-lg">CloudSync</h2>
+                    <h2 class="text-lg font-semibold mt-2">Add Dark Mode</h2>
+                    <p class="bg-white p-3 rounded-lg text-gray-500">Store the user's preference in localStorage...</p>
+                    <div class="flex justify-between items-center mt-4">
+                        <p class="text-gray-500 text-sm">Deadline <br><span class="font-semibold">01 Mar 2025</span></p>
+                        <button class="btn btn-primary">Completed</button>
+                    </div>
+                </div>
+<!-- card-3 -->
+                <div class="card bg-slate-100 shadow-md rounded-lg p-4">
+                    <h2 class="bg-white p-2 w-22 rounded-lg">SwiftPay</h2>
+                    <h2 class="text-lg font-semibold mt-2">Optimize Home Page</h2>
+                    <p class="bg-white p-3 rounded-lg text-gray-500">Ensure performance optimization...</p>
+                    <div class="flex justify-between items-center mt-4">
+                        <p class="text-gray-500 text-sm">Deadline <br><span class="font-semibold">01 Mar 2025</span></p>
+                        <button class="btn btn-primary">Completed</button>
+                    </div>
+                </div>
+                <!--  Card 4 -->
+            <div class="card bg-slate-100 shadow-md rounded-lg p-4">
+                <h2 class="bg-white p-2 w-22 rounded-lg">Meta</h2>
+                <h2 class="text-lg font-semibold mt-2">Add new emoji 🤲</h2>
+                <p class="bg-white p-3 rounded-lg text-gray-500">Debug UI conflicts...</p>
+                <div class="flex justify-between items-center mt-4">
+                    <p class="text-gray-500 text-sm">Deadline <br><span class="font-semibold">01 Mar 2025</span></p>
+                    <button class="btn btn-primary">Completed</button>
+                </div>
+            </div>
+
+            <!-- cRD-5 -->
+            <div class="card  bg-base-100 card-sm shadow-sm bg-slate-100">
+                <div class="card-body">
+                    <h2 class="bg-white p-2 w-22 rounded-lg ">Google LLC</h2>
+                  <h2 class="card-title">Integrate OpenAI API </h2>
+                  <p class="bg-white p-3 rounded-lg text-gray-500">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                  <div class="justify-end card-actions">
+                    <p><span class="text-gray-500">Deadline</span> <br><span class="font-semibold">01 Mar 2025</span></p>
+                    
+                    <button class="btn btn-primary mt-2">Completed</button>
+                  </div>
+                </div>
+              </div>
+              <!-- card-6 -->
+              <div class="card bg-base-100 card-sm shadow-sm bg-slate-100">
+                <div class="card-body">
+                    <h2 class="bg-white p-2 w-22 rounded-lg">Glassdoor</h2>
+                  <h2 class="card-title">Improve Job searching </h2>
+                  <p class="bg-white p-3 rounded-lg text-gray-500">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                  <div class="justify-end card-actions">
+                    <p><span class="text-gray-500">Deadline</span> <br><span class="font-semibold">01 Mar 2025</span></p>
+                    
+                    <button class="btn btn-primary mt-2">Completed</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- act-log -->
+        <aside class="bg-white shadow-md rounded-lg p-5 h-full">
+            <div class="flex items-center mx-20 gap-2">
+                <img src="activity.png" alt="">
+                <h1 class="font-semibold text-lg ">Activity Log</h1>
+            </div>
+            <button class="btn btn-primary w-full mt-4">Clear History</button>
+            <div class="mt-4 space-y-2">
+                <p class="bg-slate-100 rounded-lg p-3">You have completed the task "Add Dark Mode" at 12:48 PM</p>
+                <p class="bg-slate-100 rounded-lg p-3">You have completed the task "Optimize Home Page" at 12:50 PM</p>
+            </div>
+        </aside>
+
+    </section>
+
+</body>
+</html>
